@@ -93,9 +93,9 @@ class ProcessScheduler:
         process.terminate()
         sleep(0.1)
         if not process.is_alive():
-            print(f"[+] process '{process.name}' stoped")
+            print(f"[+] process '{process.name}' stopped")
         else:
-            print(f"[-] process '{process.name}' don't stoped")
+            print(f"[-] process '{process.name}' don't stopped")
 
 
 class Collision:
